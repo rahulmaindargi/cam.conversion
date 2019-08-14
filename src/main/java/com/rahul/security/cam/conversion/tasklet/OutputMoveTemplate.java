@@ -41,7 +41,7 @@ public class OutputMoveTemplate implements ConverterTasklet {
             fileUtility.deleteIfExists(localSource);
             fileUtility.deleteIfExists(localDest);
         } catch (Exception e) {
-            log.error("Local Clean up failed.");
+            log.error("Local Clean up failed.",e);
         }
         return RepeatStatus.FINISHED;
     }
