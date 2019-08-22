@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.rahul.security</groupId>
 	<artifactId>cam.conversion</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<name>cam.conversion</name>
 	<description>Cam conversion using Spring batch</description>
 

@@ -44,6 +44,7 @@ public class MinuteWriter implements ItemWriter<Path> {
                 Files.createDirectories(destFile.getParent());
                 convert(item.toString(), destFile.toString());
             } catch (Exception e) {
+                e.printStackTrace();
                 throw new RuntimeException(e);
             }
         });
